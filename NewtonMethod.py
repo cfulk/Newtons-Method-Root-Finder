@@ -50,7 +50,7 @@ def newtonMethod(lastGuess, iterationCounter=0):
 if __name__ == "__main__":
     
     iterationLimit = 50     # Number of iterations allowed
-    marginOfError = 0.0001  # 10^-5
+    marginOfError = 0.00001  # 10^-5
     funcString = input("Input function (formatting ex.: math.cos(x) + 3*x**2 + 1): ")   # Get initial function
     derString = input("Input function's derivative (same formatting as function): ")    # Get initial function's derivative
 
